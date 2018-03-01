@@ -1,0 +1,11 @@
+body {
+    margin: 0%;
+    background-image: url(demon.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+}
+form {
+    text-align: center;
+    padding-top: 300px;
+}
