@@ -6,7 +6,7 @@ form.addEventListener('submit', function (event) {
     // Get the year number from your browser
     var d = new Date();
     var n = d.getFullYear();
-
+    
     // If you remove this function, the empty input will give you resault
     var x = document.getElementById("myInput").value;
         if (x =='') {
