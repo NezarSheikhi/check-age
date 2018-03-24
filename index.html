@@ -11,8 +11,8 @@
     <form id="form">
     <p>If you want to see my web page you most be over 18 years!!!</p>
     <p>Put the year of your birth</p>
-    <input id="myInput" type="number" required/>
-    <button id="myButton" value="submit">Go</button>
+    <input id="myInput" type="number" pattern="(.){4,4}" required >
+        <button id="myButton" value="submit">Go</button>
     </form>
     <script src="js/app.js"></script>
 </body>
