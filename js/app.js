@@ -8,7 +8,7 @@ form.addEventListener('submit', function (event) {
     
     // If you remove this function, the empty input will give you resault
     var x = document.getElementById("myInput").value;
-        if (x =='') {
+        if (x ==''| x.length != 4) {
         alert("Number must be filled out");
         return false;
     }
